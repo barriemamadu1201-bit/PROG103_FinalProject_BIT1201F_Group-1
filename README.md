@@ -1,5 +1,6 @@
 ﻿# PROG103_FinalProject_BIT1201F_Group-1
-CLINIC QUEUE MANAGEMENT SYSTEM — OVERVIEW
+CLINIC QUEUE MANAGEMENT SYSTEM 
+OVERVIEW
 This is a desktop application built with Python and Tkinter (no database, no web server, no OOP classes — purely procedural). It manages patient queuing at a medical clinic, from arrival to discharge.
 ARCHITECTURE
 All data lives in in-memory Python lists and dicts — nothing is saved to disk between sessions. When the app closes, all patient data is gone. The five core data stores are:
